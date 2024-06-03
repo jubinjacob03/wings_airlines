@@ -1,3 +1,4 @@
+/* General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -18,21 +19,15 @@ header {
   background-color: #002060;
   padding: 10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-header h1 {
-	margin: 0;
-}
-
-nav {
-	display: flex;
-}
-
-nav ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+.nav-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-wrapper ul li {
@@ -53,15 +48,14 @@ nav ul {
   height: auto;
   border-radius: 50%;
 }
-
 .main {
   padding: 20px;
 }
 
 #search {
-	background-color: #ddd;
-	padding: 20px;
-	margin-bottom: 20px;
+  background-color: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 section#search h2 {
@@ -87,36 +81,41 @@ form#search-form input {
 }
 
 #search-form button {
-	padding: 10px;
-	background-color: #333;
-	color: #fff;
-	border: none;
-	cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 #results {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #results h2 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 #flights {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 #flights li {
-	background-color: #eee;
-	padding: 10px;
-	margin-bottom: 5px;
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 footer {
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
 }
