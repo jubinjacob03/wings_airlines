@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyHigh - Book Your Flight</title>
+    <link rel="stylesheet" href="flights.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">FlyHigh</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book a Flight</a></li>
+            <li><a href="#">Manage Booking</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="auth-links">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Fly High with Us!</h1>
+            <p>Book your next adventure today</p>
+            <a href="#" class="cta-button">Explore Now</a>
+        </div>
+    </header>
+
+    <section class="search-flights">
+        <h2>Search for Flights</h2>
+        <form>
+            <div class="form-group">
+                <label for="from">From</label>
+                <input type="text" id="from" placeholder="City or Airport">
+            </div>
+            <div class="form-group">
+                <label for="to">To</label>
+                <input type="text" id="to" placeholder="City or Airport">
+            </div>
+            <div class="form-group">
+                <label for="depart">Depart</label>
+                <input type="date" id="depart">
+            </div>
+            <div class="form-group">
+                <label for="return">Return</label>
+                <input type="date" id="return">
+            </div>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section class="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-list">
+            <div class="destination">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h3>Paris</h3>
+            </div>
+            <div class="destination">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h3>New York</h3>
+            </div>
+            <div class="destination">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h3>Tokyo</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"Great experience, highly recommend!" - Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The best flight booking service I've used." - John Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FlyHigh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
