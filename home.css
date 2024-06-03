@@ -42,7 +42,7 @@ main {
 }
 
 #search {
-	background-color: #ddd;
+	background-color:  linear-gradient(to right, #66dafa, #a07bfe);;
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -65,7 +65,7 @@ main {
 
 #search-form button {
 	padding: 10px;
-	background-color: #333;
+	background-color: #aeeefc;
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -86,13 +86,13 @@ main {
 }
 
 #flights li {
-	background-color: #eee;
+	background-color: #aeeefc;
 	padding: 10px;
 	margin-bottom: 5px;
 }
 
 footer {
-	background-color: #333;
+	background-color: #aeeefc;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
