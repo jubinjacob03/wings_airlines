@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: #333;
+	background-color: linear-gradient(to right, #66dafa, #a07bfe);
 	color: #fff;
 	padding: 10px;
 	display: flex;
@@ -14,12 +14,12 @@ header {
 }
 
 header h1 {
-	background-color: rgb(255, 0, 162);
+	background-color: rgb(191, 222, 230);
 	margin: 0;
 }
 
 nav {
-	background-color: chartreuse;
+	background-color: #aeeefc;
 	display: flex;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 #search {
-	background-color:  linear-gradient(to right, #66dafa, #a07bfe);;
+	background-color:  linear-gradient(to right, #66dafa, #a07bfe);
 	padding: 20px;
 	margin-bottom: 20px;
 }
