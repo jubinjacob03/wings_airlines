@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: linear-gradient(to right, #66dafa, #a07bfe);
+	background: linear-gradient(to right, #baeefc, #d9d3e7);
 	color: #fff;
 	padding: 10px;
 	display: flex;
@@ -14,12 +14,12 @@ header {
 }
 
 header h1 {
-	background-color: rgb(191, 222, 230);
+	background: rgb(191, 222, 230);
 	margin: 0;
 }
 
 nav {
-	background-color: #aeeefc;
+	background: #aeeefc;
 	display: flex;
 }
 
@@ -43,8 +43,8 @@ main {
 	padding: 20px;
 }
 
-#search {
-	background-color:  linear-gradient(to right, #66dafa, #a07bfe);
+.search {
+	background:  linear-gradient(to right, #66dafa, #a07bfe);
 	padding: 20px;
 	margin-bottom: 20px;
 }
@@ -67,7 +67,7 @@ main {
 
 #search-form button {
 	padding: 10px;
-	background-color: #aeeefc;
+	background: #aeeefc;
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -88,13 +88,13 @@ main {
 }
 
 #flights li {
-	background-color: #aeeefc;
+	background: #aeeefc;
 	padding: 10px;
 	margin-bottom: 5px;
 }
 
 footer {
-	background-color: #aeeefc;
+	background: #aeeefc;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
