@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: #333;
+	background-color: #cb0e0e;
 	color: #fff;
 	padding: 10px;
 	display: flex;
@@ -14,10 +14,12 @@ header {
 }
 
 header h1 {
+	background-color: rgb(255, 0, 162);
 	margin: 0;
 }
 
 nav {
+	background-color: chartreuse;
 	display: flex;
 }
 
