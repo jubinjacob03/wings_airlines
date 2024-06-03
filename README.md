@@ -1,3 +1,4 @@
 # wings_airlines
-Team project for airlines booking website using vanilla html , css and js
-Swetha is physcho 
+Team project for airlines booking website using  html , css and js
+SHARAN IS A HANDSOME BOY AND PRANEET IS A BONDA BOY
+
