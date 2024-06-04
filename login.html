@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Wings Airline Booking System - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						clifford: '#da373d',
+					}
+				}
+			}
+		}
+	</script>
+    <header class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full py-5">
+		<nav class="relative max-w-7xl w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-6 md:px-8 mx-auto"
+			aria-label="Global">
+			<div class="md:col-span-3">
+				<a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
+					href="../templates/creative-agency/index.html" aria-label="Preline">
+					<img src="./assets/Wings.png"/> 
+                </a>
+			</div>
+
+
+			<div id="navbar-collapse-with-animation"
+				class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6">
+				<div
+					class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
+					<div>
+						<a class="relative inline-block text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white"
+							href="home.html" aria-current="page">Home</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
+							href="web.html">Web Check-In</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
+							href="booking.html">Booking</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
+							href="about.html">About US</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
+							href="contact.html">Contact US</a>
+					</div>
+					<div>
+						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
+							href="profile.html">Profile</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-1">
+				<button type="button"
+					class="py-2 px-6 font-bold inline-flex items-center gap-x-2 text-sm rounded-xl border border-transparent bg-gray-50 text-black hover:bg-blue-700 hover:text-white transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-50">
+					Login
+				</button>
+		</nav>
+	</header>
+
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="login form">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <br>
+            </form>
+            <p class="text">Not Having an account??</p>
+            <button type="submit" class="SIbtn">Sign In</button>
+        </div>
+    </div>
+</body>
+</html>
