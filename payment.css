@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fflight&psig=AOvVaw0_az4K4A488z4qmfknXFsv&ust=1717579117654000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD-8v3OwYYDFQAAAAAdAAAAABAw");
+    background: url("https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");    
     border-width: 20px;
     border-color: aqua;
 }
@@ -11,11 +11,12 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #c3dcbd;
+    background-color: #8ac4df;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-width: 10px;
-    border-color: #8f464a;
+    border-color:whitesmoke;
+    border-style:ridge;
 }
 
 .row {
