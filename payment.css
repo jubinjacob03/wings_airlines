@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fflight&psig=AOvVaw0_az4K4A488z4qmfknXFsv&ust=1717579117654000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD-8v3OwYYDFQAAAAAdAAAAABAw");
+    border-width: 20px;
+    border-color: aqua;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #c3dcbd;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-width: 10px;
+    border-color: #8f464a;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 48%;
+    margin: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+}
+
+.inputBox label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputBox input, .inputBox select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputBox input:focus, .inputBox select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex .inputBox {
+    flex-basis: 48%;
+    margin: 20px;
+}
+body
+{
+  object-fit: cover;
+}
+
+   
