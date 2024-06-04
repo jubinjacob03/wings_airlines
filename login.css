@@ -44,7 +44,18 @@ h1 {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+.text {
+    color: #004080;
+    size: 30px;
+}
+.SIbtn{
+    background-color: #004080;
+    color: white;   
+    padding: 6px 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
 .btn {
     background-color: #004080;
     color: white;
