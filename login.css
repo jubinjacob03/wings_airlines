@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.text {
+    color: #004080;
+    size: 30px;
+}
+.SIbtn{
+    background-color: #004080;
+    color: white;   
+    padding: 6px 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.SIbtn:hover {
+    background-color: #0ee1be;
+}
+
+.btn {
+    background-color: #004080;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #0ee1be;
+}

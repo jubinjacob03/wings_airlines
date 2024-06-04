@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background: url('https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')no-repeat center center fixed;
 }
 
 /* Header styles */
@@ -63,12 +63,7 @@ header {
 
 #search {
   background-color: #ddd;
-  padding: 20px;
   margin-bottom: 20px;
-}
-
-section#search h2 {
-  margin-top: 0;
 }
 
 form#search-form {
@@ -89,13 +84,6 @@ form#search-form input {
   border-radius: 4px;
 }
 
-#search-form button {
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
 
 #results {
   margin-bottom: 20px;
