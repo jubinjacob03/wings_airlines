@@ -24,8 +24,8 @@ h1 {
     background: #fff;
     min-width: 400px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0.4, 0.4, 0.4, 0.6);
+    border-radius: 16px;
 }
 
 .login-box h2 {
@@ -43,7 +43,7 @@ h1 {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
 }
 .text {
@@ -53,14 +53,15 @@ h1 {
 .SIbtn{
     background-color: #004080;
     color: white;   
-    padding: 4px 6px;
+    padding: 6px 10px;
     margin: 8px 0;
+    margin-left: 3px;
     border: none;
-    border-radius: 4px;
+    border-radius:18px;
 }
 
 .SIbtn:hover {
-    background-color: #0ee1be;
+    background-color: #306498;
 }
 
 .btn {
@@ -69,11 +70,11 @@ h1 {
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 12px;
     cursor: pointer;
     width: 100%;
 }
 
 .btn:hover {
-    background-color: #0ee1be;
+    background-color: #306498;
 }
