@@ -15,6 +15,18 @@ body {
 
 }
 
+.container h2 {
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: #004080 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container h4 {
+    margin-bottom: 20px;
+    color: #004080;
+}
+
 h1 {
     color: #fff;
     margin-bottom: 20px;
