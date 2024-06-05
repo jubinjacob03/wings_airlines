@@ -3,7 +3,6 @@ body {
     background: url("https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");    
     background-size: cover;
     display: flex;
-    
     flex-direction: column;
 }
 
@@ -14,7 +13,7 @@ body {
     margin: 40px auto;
     padding: 20px;
     background-color: #004080;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px black;
 }
 
 .row {
@@ -31,6 +30,7 @@ body {
 .title {
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
 }
 
 .inputBox {
@@ -51,7 +51,7 @@ body {
 
 .inputBox input:focus, .inputBox select:focus {
     border-color: #aaa;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px black;
 }
 
 .flex {
@@ -66,6 +66,10 @@ body {
 body
 {
   object-fit: cover;
+}
+
+.custom-cursor-default-hover {
+    color:white;
 }
 
    
