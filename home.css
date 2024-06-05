@@ -8,61 +8,19 @@ body {
 
 /* Header styles */
 header {
-  background-color: #004080;
   color: white;
   padding: 10px 0 0 0;
   text-align: center;
 }
 
-/* Navigation styles */
-.nav-wrapper {
-  background-color: #0ee1be;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  height: 35px;
-  width: auto;
-  margin-right: 10px;
-}
-
-.nav-wrapper ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.nav-wrapper ul li {
-  margin: 0 15px;
-  text-align: center;
-}
-
-.nav-wrapper ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.nav-wrapper ul li a:hover {
-  text-decoration: underline;
-}
-
-.nav-wrapper ul li img.logo {
-  width: 50px;
-  height: auto;
-  border-radius: 50%;
-}
 
 .main {
   padding: 20px;
 }
 
 #search {
-  background-color: #004080;
+ background: transparent;
+ opacity: 0.9;
   margin-bottom: 20px;
 }
 
@@ -74,6 +32,7 @@ form#search-form {
 form#search-form label {
   flex: 1 1 100%;
   margin: 10px 0 5px 0;
+  color: #fff;
 }
 
 form#search-form input {
@@ -118,4 +77,8 @@ footer {
 .logn {
 	background: #002060;
 	text-align: center;
+}
+
+label{
+  font-size: 17px;
 }
