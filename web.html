@@ -42,15 +42,15 @@
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-							href="booking.html">Booking</a>
+							href="booking.html">Booking History</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-							href="about.html">About US</a>
+							href="about.html">About Us</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
-							href="contact.html">Contact US</a>
+							href="contact.html">Contact Us</a>
 					</div>
 					<div>
 						<a class="inline-block text-black hover:text-gray-600 dark:text-white dark:hover:text-neutral-300"
@@ -60,10 +60,13 @@
 			</div>
 
 			<div class="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-1">
+				<a href="login.html">
 				<button type="button"
 					class="py-2 px-6 font-bold inline-flex items-center gap-x-2 text-sm rounded-xl border border-transparent bg-gray-50 text-black hover:bg-blue-700 hover:text-white transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-gray-50">
 					Login
 				</button>
+				</a>
+			</div>
 		</nav>
 	</header>
 
@@ -77,12 +80,19 @@
                 <input type="text" id="last-name" name="last-name" required>
                 <label for="departure-date">Departure Date:</label>
                 <input type="date" id="departure-date" name="departure-date" required>
-                <button type="submit">Check In</button>
+				<div class="sub">
+                	<button type="submit">Check In</button>
+				</div>
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Wings Airline</p>
-    </footer>
+	
+    <footer class="mt-auto py-3 bg-gray-800 dark:bg-neutral-800">
+		<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+			<p class="text-white font-bold">Wings Airline 2024&trade;</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
 </body>
+
 </html>
