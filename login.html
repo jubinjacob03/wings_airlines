@@ -74,13 +74,17 @@
             <h4>Book To FLY</h4>
 			<form id="login form">
 				<div class="textbox">
-					<input type="text" placeholder="Username" name="username" required>
+					<input type="text" id="username" placeholder="Username" name="username" required>
 				</div>
 				<div class="textbox">
-					<input type="password" placeholder="Password" name="password" required>
+					<input type="password" id="password" placeholder="Password" name="password" required>
 				</div>
+				<div class="checkbox">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Remember Me</label>
+                </div>
 				<button type="submit" class="btn">Login</button>
-				<br>
+				<div class="spinner" id="spinner" style="display: none;"></div>
 			</form>
 			<p class="text">Not Having an account ?
 				<a href="signup.html">
@@ -91,6 +95,7 @@
 			</p>
 		</div>
 	</div>
+	<script src="login.js"></script>
 </body>
 
 </html>
